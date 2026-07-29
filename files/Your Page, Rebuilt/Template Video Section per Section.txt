@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section [#] Video Page</title>
+</head>
+<body style="background:#e8eaf0; margin:0; padding:40px 20px; font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE START: Copy everything between these comments  -->
+<!-- ============================================================ -->
+
+<!-- ── PAGE HEADER ─────────────────────────────────────────── -->
+<div style="max-width:800px; margin:0 auto 50px auto; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); border-radius:14px; padding:36px 40px; text-align:center; color:white; border:2px solid #d0d0d0;">
+  <div style="display:inline-block; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:30px; padding:5px 18px; font-size:0.75em; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px;">
+    Section [#]
+  </div>
+  <h1 style="font-size:2.2em; font-weight:700; margin:0 0 8px 0; text-shadow:0 3px 6px rgba(0,0,0,0.35); line-height:1.15;">
+    [SECTION TITLE]
+  </h1>
+  <p style="margin:0; font-size:0.95em; opacity:0.65; letter-spacing:0.5px;">
+    Lecture Videos & Materials
+  </p>
+</div>
+
+<!-- ── OVERVIEW ───────────────────────────────────────────── -->
+<div style="max-width:800px; margin:0 auto 40px auto;">
+  <div style="background:#ffffff; border-left:5px solid #360033; border-right:1px solid #dde0e8; border-radius:8px; padding:22px 32px;">
+    <p style="margin:0; color:#3a3a4a; font-size:1.02em; line-height:1.75;">
+      [DESCRIPTION]
+    </p>
+  </div>
+</div>
+
+
+<!-- SEPARATOR -->
+<div style="max-width:800px; margin:0 auto 50px auto; text-align:center;">
+  <div style="width:100px; height:3px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); margin:0 auto; border-radius:2px; opacity:0.5;"></div>
+</div>
+
+<!-- ── POWERPOINT DOWNLOAD SECTION ──────────────────────────── -->
+<div style="margin-bottom:50px;">
+  <div style="max-width:800px; margin:0 auto; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+    <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:22px 30px; text-align:center;">
+      <h2 style="font-size:1.7em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">📊 Lecture Materials</h2>
+    </div>
+    
+    <div style="padding:36px 40px; background:white; text-align:center;">
+      <div style="display:inline-block; padding:18px 32px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); border-radius:10px; cursor:pointer;">
+        <a href="YOUR_POWERPOINT_DOWNLOAD_LINK_HERE" style="color:white; text-decoration:none; font-size:1.3em; font-weight:600; display:flex; align-items:center; gap:12px;">
+          <span style="font-size:1.6em;">💾</span>
+          Download PowerPoint
+        </a>
+      </div>
+      
+      <div style="margin-top:18px;">
+        <a href="YOUR_POWERPOINT_DOWNLOAD_LINK_HERE" style="color:#360033; text-decoration:none; font-size:0.95em; opacity:0.7;">
+          Click here if the download button doesn't work
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEPARATOR -->
+<div style="max-width:800px; margin:0 auto 50px auto; text-align:center;">
+  <div style="width:100px; height:3px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); margin:0 auto; border-radius:2px; opacity:0.5;"></div>
+</div>
+
+<!-- ========================================= -->
+<!-- VIDEO SECTION 1                          -->
+<!-- ========================================= -->
+<div style="margin-bottom:50px;">
+  <div style="max-width:800px; margin:0 auto; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+    <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:22px 30px; text-align:center;">
+      <div style="font-size:0.72em; letter-spacing:3px; text-transform:uppercase; opacity:0.55; margin-bottom:8px;">
+        Video 1 of 4
+      </div>
+      <h2 style="font-size:1.9em; font-weight:700; margin:0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.3px; line-height:1.15;">
+        YOUR VIDEO TITLE HERE
+      </h2>
+    </div>
+
+    <div style="padding:36px 40px; background:white; text-align:center;">
+      <div style="display:inline-block; border-radius:8px; overflow:hidden; border:3px solid #000; background:#000;">
+
+        <!-- OPTION 1: COMING SOON PLACEHOLDER -->
+        <div style="width:720px; height:405px; background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#f093fb 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; position:relative; overflow:hidden;">
+          <div style="text-align:center; position:relative; z-index:2;">
+            <div style="font-size:3.5em; margin-bottom:10px; opacity:0.9;">📹</div>
+            <h3 style="font-size:2.2em; font-weight:700; margin:0 0 12px 0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.5px;">Coming Soon</h3>
+            <p style="font-size:1.2em; margin:0 0 18px 0; opacity:0.85; font-weight:300; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Video content will be available shortly</p>
+            <div style="width:60px; height:3px; background:white; margin:0 auto; border-radius:2px; opacity:0.8;"></div>
+          </div>
+        </div>
+
+        <!-- OPTION 2: ACTUAL VIDEO EMBED
+             Delete the Coming Soon block above and uncomment below
+        -->
+        <!--
+        <iframe title="Video 1"
+                aria-label="Lecture Video 1"
+                width="720" height="405"
+                src="YOUR_VIDEO_EMBED_URL_HERE"
+                frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen
+                loading="lazy"
+                style="border:0; display:block;">
+        </iframe>
+        -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEPARATOR -->
+<div style="max-width:800px; margin:0 auto 50px auto; text-align:center;">
+  <div style="width:100px; height:3px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); margin:0 auto; border-radius:2px; opacity:0.5;"></div>
+</div>
+
+<!-- ========================================= -->
+<!-- VIDEO SECTION 2                          -->
+<!-- ========================================= -->
+<div style="margin-bottom:50px;">
+  <div style="max-width:800px; margin:0 auto; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+    <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:22px 30px; text-align:center;">
+      <div style="font-size:0.72em; letter-spacing:3px; text-transform:uppercase; opacity:0.55; margin-bottom:8px;">
+        Video 2 of 4
+      </div>
+      <h2 style="font-size:1.9em; font-weight:700; margin:0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.3px; line-height:1.15;">
+        YOUR VIDEO TITLE HERE
+      </h2>
+    </div>
+
+    <div style="padding:36px 40px; background:white; text-align:center;">
+      <div style="display:inline-block; border-radius:8px; overflow:hidden; border:3px solid #000; background:#000;">
+
+        <div style="width:720px; height:405px; background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#f093fb 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; position:relative; overflow:hidden;">
+          <div style="text-align:center; position:relative; z-index:2;">
+            <div style="font-size:3.5em; margin-bottom:10px; opacity:0.9;">📹</div>
+            <h3 style="font-size:2.2em; font-weight:700; margin:0 0 12px 0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.5px;">Coming Soon</h3>
+            <p style="font-size:1.2em; margin:0 0 18px 0; opacity:0.85; font-weight:300; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Video content will be available shortly</p>
+            <div style="width:60px; height:3px; background:white; margin:0 auto; border-radius:2px; opacity:0.8;"></div>
+          </div>
+        </div>
+
+        <!--
+        <iframe title="Video 2"
+                aria-label="Lecture Video 2"
+                width="720" height="405"
+                src="YOUR_VIDEO_EMBED_URL_HERE"
+                frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen
+                loading="lazy"
+                style="border:0; display:block;">
+        </iframe>
+        -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEPARATOR -->
+<div style="max-width:800px; margin:0 auto 50px auto; text-align:center;">
+  <div style="width:100px; height:3px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); margin:0 auto; border-radius:2px; opacity:0.5;"></div>
+</div>
+
+
+<!-- ========================================= -->
+<!-- VIDEO SECTION 3                          -->
+<!-- ========================================= -->
+<div style="margin-bottom:50px;">
+  <div style="max-width:800px; margin:0 auto; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+    <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:22px 30px; text-align:center;">
+      <div style="font-size:0.72em; letter-spacing:3px; text-transform:uppercase; opacity:0.55; margin-bottom:8px;">
+        Video 3 of 4
+      </div>
+      <h2 style="font-size:1.9em; font-weight:700; margin:0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.3px; line-height:1.15;">
+        YOUR VIDEO TITLE HERE
+      </h2>
+    </div>
+
+    <div style="padding:36px 40px; background:white; text-align:center;">
+      <div style="display:inline-block; border-radius:8px; overflow:hidden; border:3px solid #000; background:#000;">
+
+        <div style="width:720px; height:405px; background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#f093fb 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; position:relative; overflow:hidden;">
+          <div style="text-align:center; position:relative; z-index:2;">
+            <div style="font-size:3.5em; margin-bottom:10px; opacity:0.9;">📹</div>
+            <h3 style="font-size:2.2em; font-weight:700; margin:0 0 12px 0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.5px;">Coming Soon</h3>
+            <p style="font-size:1.2em; margin:0 0 18px 0; opacity:0.85; font-weight:300; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Video content will be available shortly</p>
+            <div style="width:60px; height:3px; background:white; margin:0 auto; border-radius:2px; opacity:0.8;"></div>
+          </div>
+        </div>
+
+        <!--
+        <iframe title="Video 3"
+                aria-label="Lecture Video 3"
+                width="720" height="405"
+                src="YOUR_VIDEO_EMBED_URL_HERE"
+                frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen
+                loading="lazy"
+                style="border:0; display:block;">
+        </iframe>
+        -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEPARATOR -->
+<div style="max-width:800px; margin:0 auto 50px auto; text-align:center;">
+  <div style="width:100px; height:3px; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); margin:0 auto; border-radius:2px; opacity:0.5;"></div>
+</div>
+
+
+<!-- ========================================= -->
+<!-- VIDEO SECTION 4                          -->
+<!-- ========================================= -->
+<div style="margin-bottom:40px;">
+  <div style="max-width:800px; margin:0 auto; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+    <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:22px 30px; text-align:center;">
+      <div style="font-size:0.72em; letter-spacing:3px; text-transform:uppercase; opacity:0.55; margin-bottom:8px;">
+        Video 4 of 4
+      </div>
+      <h2 style="font-size:1.9em; font-weight:700; margin:0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.3px; line-height:1.15;">
+        YOUR VIDEO TITLE HERE
+      </h2>
+    </div>
+
+    <div style="padding:36px 40px; background:white; text-align:center;">
+      <div style="display:inline-block; border-radius:8px; overflow:hidden; border:3px solid #000; background:#000;">
+
+        <div style="width:720px; height:405px; background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#f093fb 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; position:relative; overflow:hidden;">
+          <div style="text-align:center; position:relative; z-index:2;">
+            <div style="font-size:3.5em; margin-bottom:10px; opacity:0.9;">📹</div>
+            <h3 style="font-size:2.2em; font-weight:700; margin:0 0 12px 0; text-shadow:0 3px 6px rgba(0,0,0,0.4); letter-spacing:-0.5px;">Coming Soon</h3>
+            <p style="font-size:1.2em; margin:0 0 18px 0; opacity:0.85; font-weight:300; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Video content will be available shortly</p>
+            <div style="width:60px; height:3px; background:white; margin:0 auto; border-radius:2px; opacity:0.8;"></div>
+          </div>
+        </div>
+
+        <!--
+        <iframe title="Video 4"
+                aria-label="Lecture Video 4"
+                width="720" height="405"
+                src="YOUR_VIDEO_EMBED_URL_HERE"
+                frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen
+                loading="lazy"
+                style="border:0; display:block;">
+        </iframe>
+        -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================================= -->
+<!-- TO ADD MORE VIDEOS: Copy any video       -->
+<!-- section + separator above                -->
+<!-- ========================================= -->
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE END                                            -->
+<!-- ============================================================ -->
+
+</body>
+</html>
