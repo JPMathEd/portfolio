@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter Resource Hub — All-in-One</title>
+</head>
+<body style="background:#e8eaf0; margin:0; padding:40px 20px; font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE START: Copy everything between these comments   -->
+<!-- ============================================================ -->
+<!--                                                              -->
+<!-- HOW THIS PAGE WORKS                                          -->
+<!--  • Each Section is a <details> block, CLOSED by default, so  -->
+<!--    the page is short on load. Students open what they need.  -->
+<!--  • Videos use loading="lazy" — they don't load until the     -->
+<!--    section is opened. Keeps the page fast despite many embeds-->
+<!--  • Want a section open on arrival? Add the word  open  to     -->
+<!--    its <details ... open> tag.                               -->
+<!--  • Every section is identical and fully commented, so you    -->
+<!--    can edit any one of them in isolation.                    -->
+<!--                                                              -->
+<!-- COLOR KEY (resource-type coding):                            -->
+<!--   Slides = TEAL #13727a · Videos = INDIGO #534a93           -->
+<!--   Skill Check = TERRACOTTA #9c5230 · Frame = SLATE #2c3e50   -->
+<!-- ============================================================ -->
+
+<div id="top" style="max-width:800px; margin:0 auto;">
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- HEADER                                                     -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <div style="background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); border-radius:14px 14px 0 0; padding:36px 40px; text-align:center; color:white;">
+    <div style="display:inline-block; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:30px; padding:5px 18px; font-size:0.75em; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px;">
+      Chapter # &nbsp;·&nbsp; Resource Hub
+    </div>
+    <h1 style="font-size:2.2em; font-weight:700; margin:0 0 6px 0; text-shadow:0 3px 6px rgba(0,0,0,0.35); line-height:1.15;">
+      YOUR CHAPTER TITLE HERE
+    </h1>
+    <p style="margin:0; font-size:0.95em; opacity:0.7; letter-spacing:0.5px;">
+      Everything for this chapter, on one page
+    </p>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- OVERVIEW                                                   -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <div style="background:#ffffff; border-left:5px solid #4a6587; border-right:1px solid #d8dbe3; border-radius:0 0 14px 14px; padding:22px 32px;">
+    <p style="margin:0; color:#3a3a4a; font-size:1.02em; line-height:1.75;">
+      Brief overview of what this chapter covers. Describe the key topics and how the
+      sections build on one another. Keep it 2–3 sentences.
+    </p>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- QUICK REFERENCE GUIDE  (chapter-wide banner)              -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <a href="YOUR_QUICK_REFERENCE_URL_HERE" target="_blank"
+     style="display:block; margin-top:28px; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); border-radius:12px; padding:26px 32px; color:white; text-decoration:none;">
+    <table style="width:100%; border-collapse:collapse;">
+      <tr>
+        <td style="width:64px; font-size:2.6em; line-height:1; vertical-align:middle;">📘</td>
+        <td style="vertical-align:middle;">
+          <div style="font-size:0.72em; letter-spacing:3px; text-transform:uppercase; opacity:0.6; margin-bottom:4px;">Chapter-wide</div>
+          <div style="font-size:1.25em; font-weight:700; letter-spacing:0.5px;">Quick Reference Guide</div>
+        </td>
+        <td style="text-align:right; font-size:0.78em; letter-spacing:1px; text-transform:uppercase; opacity:0.7; vertical-align:middle; white-space:nowrap;">Open&nbsp;↗</td>
+      </tr>
+    </table>
+  </a>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- JUMP-TO-SECTION INDEX  (kept in sync with the sections)    -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <div style="text-align:center; margin:32px 0 22px 0;">
+    <div style="color:#5a6273; font-size:0.72em; letter-spacing:3px; text-transform:uppercase; font-weight:700; margin-bottom:12px;">Jump to a section</div>
+    <a href="#sec1" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 1</a>
+    <a href="#sec2" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 2</a>
+    <a href="#sec3" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 3</a>
+    <a href="#sec4" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 4</a>
+    <a href="#sec5" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 5</a>
+    <a href="#sec6" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 6</a>
+    <a href="#sec7" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 7</a>
+    <a href="#sec8" style="display:inline-block; background:#2c3e50; color:white; text-decoration:none; font-size:0.85em; font-weight:700; padding:8px 18px; border-radius:20px; margin:0 4px 8px 4px;">Section 8</a>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 1  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec1" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 1</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 1 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S1_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 1 Slides" src="YOUR_S1_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 1 Video 1" src="YOUR_S1_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 1 Video 2" src="YOUR_S1_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 1 Video 3" src="YOUR_S1_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 1 Video 4" src="YOUR_S1_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S1_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 1 Skill Check" src="YOUR_S1_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 2  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec2" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 2</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 2 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S2_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 2 Slides" src="YOUR_S2_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 2 Video 1" src="YOUR_S2_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 2 Video 2" src="YOUR_S2_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 2 Video 3" src="YOUR_S2_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 2 Video 4" src="YOUR_S2_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S2_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 2 Skill Check" src="YOUR_S2_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 3  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec3" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 3</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 3 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S3_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 3 Slides" src="YOUR_S3_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 3 Video 1" src="YOUR_S3_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 3 Video 2" src="YOUR_S3_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 3 Video 3" src="YOUR_S3_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 3 Video 4" src="YOUR_S3_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S3_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 3 Skill Check" src="YOUR_S3_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 4  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec4" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 4</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 4 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S4_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 4 Slides" src="YOUR_S4_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 4 Video 1" src="YOUR_S4_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 4 Video 2" src="YOUR_S4_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 4 Video 3" src="YOUR_S4_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 4 Video 4" src="YOUR_S4_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S4_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 4 Skill Check" src="YOUR_S4_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 5  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec5" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 5</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 5 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S5_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 5 Slides" src="YOUR_S5_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 5 Video 1" src="YOUR_S5_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 5 Video 2" src="YOUR_S5_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 5 Video 3" src="YOUR_S5_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 5 Video 4" src="YOUR_S5_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S5_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 5 Skill Check" src="YOUR_S5_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 6  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec6" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 6</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 6 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S6_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 6 Slides" src="YOUR_S6_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 6 Video 1" src="YOUR_S6_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 6 Video 2" src="YOUR_S6_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 6 Video 3" src="YOUR_S6_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 6 Video 4" src="YOUR_S6_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S6_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 6 Skill Check" src="YOUR_S6_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 7  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec7" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 7</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 7 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S7_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 7 Slides" src="YOUR_S7_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 7 Video 1" src="YOUR_S7_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 7 Video 2" src="YOUR_S7_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 7 Video 3" src="YOUR_S7_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 7 Video 4" src="YOUR_S7_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S7_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 7 Skill Check" src="YOUR_S7_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- SECTION 8  (collapsible · closed by default)              -->
+  <!-- Self-contained: every section carries the same structure   -->
+  <!-- and comments, so you can edit any one of them in isolation. -->
+  <!-- ════════════════════════════════════════════════════════ -->
+  <details id="sec8" style="background:white; border-radius:12px; border:1px solid #d8dbe3; overflow:hidden; margin-bottom:18px;">
+
+    <summary style="cursor:pointer; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); color:white; padding:18px 26px;">
+      <span style="display:inline-block; background:rgba(255,255,255,0.15); font-size:0.68em; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:4px 12px; border-radius:20px; margin-right:12px; vertical-align:middle;">Section 8</span>
+      <span style="font-size:1.1em; font-weight:700; vertical-align:middle;">SECTION 8 TITLE HERE</span>
+      <div style="font-size:0.74em; opacity:0.55; letter-spacing:1px; margin-top:8px;">📊 Slides &nbsp;·&nbsp; 🎥 Videos &nbsp;·&nbsp; ✏️ Skill Check</div>
+    </summary>
+
+    <div style="padding:28px 32px;">
+
+      <!-- ───────── SLIDES ───────── -->
+      <div style="background:#13727a; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">📊 &nbsp; Slides</div>
+      <div style="text-align:center; margin-bottom:34px;">
+        <a href="YOUR_S8_SLIDES_URL_HERE" target="_blank" style="display:inline-block; background:#13727a; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Open Slides&nbsp;↗</a>
+        <!-- EMBED INSTEAD: delete the link above, uncomment below, set the URL.
+             padding-bottom: 56.25% for 16:9 decks, 75% for 4:3 decks.
+        <div style="max-width:720px; margin:0 auto;">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 8 Slides" src="YOUR_S8_SLIDES_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- ───────── VIDEOS ───────── -->
+      <div style="background:#534a93; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">🎥 &nbsp; Lecture Videos</div>
+
+      <!-- Video slot 1 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 1</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 8 Video 1" src="YOUR_S8_VIDEO1_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 2 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 2</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 8 Video 2" src="YOUR_S8_VIDEO2_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 3 -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 3</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 8 Video 3" src="YOUR_S8_VIDEO3_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 20px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- · separator between videos · -->
+      <div style="width:50px; height:3px; background:#534a93; opacity:0.3; border-radius:2px; margin:0 auto 20px auto;"></div>
+
+      <!-- Video slot 4  (to add Video 5, 6, … copy a separator + this slot) -->
+      <div style="font-size:0.7em; letter-spacing:3px; text-transform:uppercase; color:#7a72b0; text-align:center; margin-bottom:6px;">Video 4</div>
+      <h4 style="font-size:1.05em; font-weight:700; color:#2c3e50; text-align:center; margin:0 0 14px 0;">YOUR VIDEO TITLE HERE</h4>
+      <div style="max-width:720px; margin:0 auto 8px auto;">
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; border:3px solid #000; background:#000;">
+          <!-- Placeholder — to go live, delete this div and uncomment the iframe below. -->
+          <div style="position:absolute; top:0; left:0; right:0; bottom:0; background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); display:flex; flex-direction:column; justify-content:center; align-items:center; color:white; text-align:center;">
+            <div style="font-size:2.4em; margin-bottom:6px; opacity:0.85;">📹</div>
+            <h4 style="font-size:1.3em; font-weight:700; margin:0 0 5px 0;">Coming Soon</h4>
+            <p style="font-size:0.82em; margin:0; opacity:0.55;">Video content will be available shortly</p>
+            <div style="width:46px; height:3px; background:#534a93; margin:12px auto 0 auto; border-radius:2px;"></div>
+          </div>
+          <!--
+          <iframe title="Section 8 Video 4" src="YOUR_S8_VIDEO4_EMBED_URL_HERE"
+                  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen loading="lazy"
+                  style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          -->
+        </div>
+      </div>
+      <!-- Tiny troubleshooting note (under every video) -->
+      <p style="max-width:720px; margin:0 auto 34px auto; text-align:center; font-size:0.72em; color:#9aa0ac; line-height:1.5;">Video not loading? Refresh the page, or right-click the video and choose &ldquo;Reload frame.&rdquo;</p>
+
+      <!-- ───────── SKILL CHECK ───────── -->
+      <div style="background:#9c5230; color:white; padding:10px 18px; border-radius:8px; font-size:0.8em; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:18px;">✏️ &nbsp; Skill Check</div>
+      <div style="text-align:center; margin-bottom:10px;">
+        <a href="YOUR_S8_SKILLCHECK_URL_HERE" target="_blank" style="display:inline-block; background:#9c5230; color:white; text-decoration:none; padding:14px 34px; border-radius:8px; font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:0.95em;">Start Skill Check&nbsp;↗</a>
+        <!-- EMBED INSTEAD (e.g. a Google Form or other embeddable quiz):
+             delete the link above, uncomment below, set the URL.
+        <div style="max-width:720px; margin:14px auto 0 auto;">
+          <div style="position:relative; padding-bottom:75%; height:0; overflow:hidden; border-radius:8px; border:2px solid #000; background:#000;">
+            <iframe title="Section 8 Skill Check" src="YOUR_S8_SKILLCHECK_EMBED_URL_HERE"
+                    frameborder="0" loading="lazy"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"></iframe>
+          </div>
+        </div>
+        -->
+      </div>
+
+      <!-- Back to top -->
+      <div style="text-align:center; padding-top:14px;"><a href="#top" style="color:#4a6587; text-decoration:none; font-size:0.76em; letter-spacing:1.5px; text-transform:uppercase;">↑ Back to top</a></div>
+
+    </div>
+  </details>
+
+  <!-- ════════════════════════════════════════════════════════ -->
+  <!-- ADD MORE SECTIONS: copy a <details> block, bump the number,-->
+  <!-- and add a matching pill to the Jump-to-section index.      -->
+  <!-- (Or just re-run the generator with a larger N_SECTIONS.)   -->
+  <!-- ════════════════════════════════════════════════════════ -->
+
+</div>
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE END                                             -->
+<!-- ============================================================ -->
+
+</body>
+</html>

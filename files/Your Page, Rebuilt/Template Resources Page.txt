@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section Resource Page</title>
+</head>
+<body style="background:#e8eaf0; margin:0; padding:40px 20px; font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE START: Copy everything between these comments  -->
+<!-- ============================================================ -->
+
+<div style="max-width:780px; margin:0 auto;">
+
+  <!-- ── HEADER ─────────────────────────────────────────────── -->
+  <div style="background:linear-gradient(135deg,#2c3e50 0%,#34495e 100%); border-radius:14px 14px 0 0; padding:36px 40px; text-align:center; color:white;">
+    <div style="display:inline-block; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:30px; padding:5px 18px; font-size:0.75em; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px;">
+      Section # Resources
+    </div>
+    <h1 style="font-size:2.2em; font-weight:700; margin:0 0 6px 0; text-shadow:0 3px 6px rgba(0,0,0,0.35); line-height:1.15;">
+      YOUR SECTION TITLE HERE
+    </h1>
+    <p style="margin:0; font-size:0.95em; opacity:0.65; letter-spacing:0.5px;">
+      Select a resource below to get started
+    </p>
+  </div>
+
+  <!-- ── OVERVIEW ───────────────────────────────────────────── -->
+  <div style="background:#ffffff; border-left:5px solid #667eea; border-right:1px solid #dde0e8; padding:22px 32px;">
+    <p style="margin:0; color:#3a3a4a; font-size:1.02em; line-height:1.75;">
+      Brief overview of what this section covers. Describe the key topics, skills, or
+      concepts students will work with. Keep it 2–3 sentences — enough context to orient
+      without overwhelming.
+    </p>
+  </div>
+
+   <!-- ── 2 × 2 RESOURCE GRID ────────────────────────────────── -->
+  <table style="width:100%; border-collapse:collapse; border-radius:0 0 14px 14px; overflow:hidden; border:1px solid #dde0e8; border-top:none;">
+    <tbody>
+ 
+      <!-- ROW 1 -->
+      <tr>
+ 
+        <!-- SLIDES -->
+        <td style="width:50%; padding:0; border-right:1px solid rgba(255,255,255,0.15); border-bottom:1px solid rgba(255,255,255,0.15);">
+          <a href="YOUR_PPT_FILE_URL_HERE" target="_blank"
+             style="display:block; padding:44px 20px; background:#1b3a5c; color:white; text-decoration:none; text-align:center;">
+            <div style="font-size:2.6em; margin-bottom:14px; line-height:1;">📊</div>
+            <div style="font-size:1.05em; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-bottom:7px;">
+              Slides
+            </div>
+            <div style="font-size:0.78em; opacity:0.6; letter-spacing:0.5px;">
+              View Presentation
+            </div>
+          </a>
+        </td>
+ 
+        <!-- LECTURE VIDEOS -->
+        <td style="width:50%; padding:0; border-bottom:1px solid rgba(255,255,255,0.15);">
+          <a href="YOUR_VIDEO_PAGE_URL_HERE"
+             style="display:block; padding:44px 20px; background:#3b1b5c; color:white; text-decoration:none; text-align:center;">
+            <div style="font-size:2.6em; margin-bottom:14px; line-height:1;">🎥</div>
+            <div style="font-size:1.05em; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-bottom:7px;">
+              Lecture Videos
+            </div>
+            <div style="font-size:0.78em; opacity:0.6; letter-spacing:0.5px;">
+              Watch Lectures
+            </div>
+          </a>
+        </td>
+ 
+      </tr>
+ 
+      <!-- ROW 2 -->
+      <tr>
+ 
+        <!-- SKILL CHECK — full width -->
+        <td colspan="2" style="padding:0;">
+          <a href="YOUR_SKILL_CHECK_FILE_URL_HERE" target="_blank"
+             style="display:block; padding:44px 20px; background:#5c2a1b; color:white; text-decoration:none; text-align:center;">
+            <div style="font-size:2.6em; margin-bottom:14px; line-height:1;">✏️</div>
+            <div style="font-size:1.05em; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-bottom:7px;">
+              Skill Check
+            </div>
+            <div style="font-size:0.78em; opacity:0.6; letter-spacing:0.5px;">
+              Practice Assessment
+            </div>
+          </a>
+        </td>
+ 
+      </tr>
+ 
+    </tbody>
+  </table>
+ 
+</div>
+
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE END                                            -->
+<!-- ============================================================ -->
+
+</body>
+</html>

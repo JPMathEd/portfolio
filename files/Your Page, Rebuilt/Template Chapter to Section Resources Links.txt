@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter # Resources</title>
+</head>
+<body style="background:#e8eaf0; margin:0; padding:40px 20px; font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;">
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE START: Copy everything between these comments  -->
+<!-- ============================================================ -->
+
+<!-- ── PAGE HEADER ─────────────────────────────────────────── -->
+<div style="max-width:1000px; margin:0 auto 50px auto; background:linear-gradient(135deg,#360033 0%,#0b8793 100%); border-radius:14px; padding:36px 40px; text-align:center; color:white; border:2px solid #d0d0d0;">
+  <div style="display:inline-block; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); border-radius:30px; padding:5px 18px; font-size:0.75em; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px;">
+    Chapter Resources
+  </div>
+  <h1 style="font-size:2.6em; font-weight:700; margin:0 0 8px 0; text-shadow:0 3px 6px rgba(0,0,0,0.35); line-height:1.15;">
+    📚 Chapter ### : -----
+  </h1>
+  <p style="margin:0; font-size:1.05em; opacity:0.75; letter-spacing:0.5px;">
+    Select a section below to access lecture materials and videos
+  </p>
+</div>
+
+<!-- ── 6-BUTTON GRID (3 COLUMNS, CENTERED) ──────────────────── -->
+<div style="max-width:1000px; margin:0 auto; padding:0 20px;">
+  <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+
+    <!-- SECTION 1 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_1_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 1</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_2_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 2</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_3_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 3</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- SECTION 4 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_4_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 4</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- SECTION 5 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_5_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 5</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- SECTION 6 -->
+    <div style="flex:0 0 auto; width:300px; background:white; border-radius:12px; border:2px solid #d0d0d0; overflow:hidden;">
+      <a href="YOUR_SECTION_6_PAGE_LINK_HERE" style="text-decoration:none; color:inherit; display:block;">
+        <div style="background:linear-gradient(135deg,#360033 0%,#0b8793 100%); color:white; padding:25px 20px; text-align:center;">
+          <h2 style="font-size:2.5em; font-weight:700; margin:0; text-shadow:0 2px 4px rgba(0,0,0,0.3);">Section 6</h2>
+        </div>
+        <div style="padding:25px 20px; background:white; text-align:center; min-height:100px; display:flex; align-items:center; justify-content:center;">
+          <p style="font-size:1.3em; font-weight:600; margin:0; color:#2c3e50; line-height:1.4;">Topic Name Here</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- ========================================= -->
+    <!-- TO ADD MORE: Copy any button and paste   -->
+    <!-- TO REMOVE: Delete entire button div      -->
+    <!-- ========================================= -->
+
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- CANVAS PASTE END                                            -->
+<!-- ============================================================ -->
+
+</body>
+</html>
