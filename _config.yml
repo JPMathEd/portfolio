@@ -9,14 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Academic Portfolio"
+title                    : "Joshua Plummer"
 title_separator          : "-"
 name                     : &name "Joshua R. Plummer"
 description              : &description "Professional portfolio focused on gateway mathematics, instructional systems, active learning, and accessible course design."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://JPMathEd.github.io/portfolio # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://jpmathed.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+baseurl                  : "/portfolio" # GitHub Pages project path
+repository               : "JPMathEd/portfolio"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -30,7 +30,7 @@ author:
   location         : "Montgomery, AL."
   employer         : "Auburn University at Montgomery"
   uri              : # URL
-  email            : "joshuaplummer92@gmail.com" 
+  email            : "plummerjrandall@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "JPMathEd"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -166,6 +166,33 @@ include:
   - _pages
   - files
 exclude:
+  # Retain template examples in source control without publishing fictitious work.
+  - _drafts
+  - _posts
+  - _portfolio
+  - _publications
+  - _talks
+  - _teaching
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - docs
+  - scripts
+  - markdown_generator
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

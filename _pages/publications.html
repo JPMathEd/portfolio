@@ -1,36 +1,18 @@
 ---
-layout: archive
-title: "Publications"
+layout: portfolio
+title: "Research & Publications"
 permalink: /publications/
-author_profile: true
+description: "Selected research and publications from Joshua Plummer's background in mathematics and physics."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
+<div class="container">
+  <header class="page-heading"><p class="eyebrow">A background in inquiry</p><h1>Research<br><em>&amp; publications.</em></h1><p class="lede">Selected work from my background in mathematics and physics, alongside my current interest in how people learn.</p><a class="text-link" href="{{ '/cv/' | relative_url }}">Return to my CV <span aria-hidden="true">↗</span></a></header>
+  <div class="publication-list">
+    <article><p class="eyebrow">Mathematics · M.S. thesis · 2017–2018</p><h2>On Matroid Representability</h2><p>University of South Alabama · Advisor: Dr. Elena Pavelescu</p><p>Examined matroid representations, including Rota’s conjecture, with original proofs of selected results.</p></article>
+    <article><p class="eyebrow">Astronomy · 2014–2015</p><h2>Visual binary stars</h2><p>Studied visual binary stars using speckle interferometry under Dr. Kent Clark, as part of a study led by Russell Genet.</p><p>Genet, R., et al. (2015). Kitt Peak Speckle Interferometry of Close Visual Binary Stars. <em>Journal of Double Star Observations, 11</em>(1s).</p></article>
+    <article><p class="eyebrow">Editorial · 2016</p><h2>The Importance of General Education</h2><p>Plummer, J. (2016). The Importance of General Education. <em>The Vanguard, 59</em>(9), 7.</p><p>An editorial written for a freshman seminar course.</p></article>
+    <article><p class="eyebrow">Physics · 2011–2012</p><h2>Gamma-ray spectroscopy</h2><p>Used gamma-ray spectroscopy to date soil-core samples through Cs-137, Pb-210, and other radioactive isotopes, under Dr. Justin Sanders at the University of South Alabama.</p></article>
+  </div>
+</div>
 
 

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title != 'Home' %}{{ page.title | escape }} · {% endif %}Joshua Plummer</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="Joshua Plummer">
+  <meta name="theme-color" content="#173e42">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} · Joshua Plummer">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/images/portfolio/toolkit-cover.png' | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/portfolio/monogram.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="identity" href="{{ '/' | relative_url }}" aria-label="Joshua Plummer, home">
+        <span class="monogram" aria-hidden="true">JP<span>.</span></span>
+        <span class="identity-name">Joshua Plummer<span>Educator &amp; learning designer</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}"{% if page.section == item.section %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+        <a class="nav-contact" href="mailto:{{ site.author.email }}">Let’s connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div><p class="eyebrow">Keep the conversation going</p><h2>Thoughtful design.<br>Meaningful learning.</h2></div>
+      <div class="footer-contact"><p>Interested in mathematics education, accessible course design, or professional learning?</p><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© {{ site.time | date: '%Y' }} Joshua Plummer · Montgomery, Alabama</p>
+      <div><a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a><a href="https://github.com/JPMathEd/portfolio">GitHub</a><a href="https://www.linkedin.com/in/joshua-plummer-99a495188/">LinkedIn</a></div>
+    </div>
+  </footer>
+</body>
+</html>
