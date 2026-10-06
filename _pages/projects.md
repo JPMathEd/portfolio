@@ -12,6 +12,23 @@ description: "Selected instructional design, curriculum development, and doctora
     <div class="section-head"><h2 id="featured-project-title">Featured case study.</h2></div>
     {% include portfolio-feature.html %}
   </section>
+  <section class="section" aria-labelledby="ai-course-projects">
+    <div class="section-head"><div><p class="eyebrow">AI in education · 2026</p><h2 id="ai-course-projects">Design, test, and reflect.</h2></div></div>
+    <div class="work-grid">
+      <article class="work-item">
+        <p class="eyebrow">Instructional design case study</p>
+        <h3>AI Error Coach</h3>
+        <p>I designed a six-step post-test reflection process with a choice of AI coaching or a meeting with me. Testing and an equity audit informed the current v2.2 card, which still needs retesting.</p>
+        <a class="text-link" href="{{ '/projects/ai-error-coach/' | relative_url }}">Read the AI Error Coach case study <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="work-item">
+        <p class="eyebrow">Course ePortfolio</p>
+        <h3>INST 7800: AI in Education</h3>
+        <p>Explore my module artifacts, training completion records, reflections, and final capstone. The collection follows my growth from evaluating AI tools to designing and examining an instructional model.</p>
+        <a class="text-link" href="{{ '/projects/inst-7800/' | relative_url }}">Explore my INST 7800 ePortfolio <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
   <section class="section" aria-labelledby="curriculum-projects">
     <div class="section-head"><div><p class="eyebrow">Selected experience</p><h2 id="curriculum-projects">Curriculum &amp; learner support.</h2></div></div>
     <div class="work-grid">
