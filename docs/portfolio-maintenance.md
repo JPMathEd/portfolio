@@ -10,7 +10,10 @@ No new service, build workflow, JavaScript dependency, or authentication is requ
 - Navigation: `_data/navigation.yml`
 - Homepage: `_pages/about.md`
 - Projects index: `_pages/projects.md`
-- Featured case study: `_pages/accessible-and-rigorous.html`
+- Project overviews: `_pages/accessible-and-rigorous.html` and `_pages/ai-error-coach.html`
+- Course portfolios: `_pages/inst-7100.html` and `_pages/inst-7800.html`
+- Shared project cards: `_includes/portfolio-case-studies.html`
+- Shared course cards: `_includes/portfolio-courses.html`
 - Curated CV: `_pages/cv.md`
 - Research and publications: `_pages/publications.html`
 - Reusable feature card: `_includes/portfolio-feature.html`
@@ -24,7 +27,7 @@ all sample names, titles, and links with real content.
 
 ## Source and publication decisions
 
-The September 2026 uploaded CV is the source of truth for the curated CV page.
+The October 2026 uploaded CV is the source of truth for the curated CV page.
 The previous webpage listed appointments/dates not present in this version; those
 were not carried forward without confirmation. The public PDF at
 `files/portfolio/Joshua_Plummer_CV.pdf` preserves the supplied CV's professional
@@ -57,7 +60,7 @@ description: A concise description of the project.
 ---
 ```
 
-Use the featured case study as a structural model: problem, audience, role,
+Use the project overviews as structural models: problem, audience, role,
 design decisions, artifacts, evidence, and reflection. Label designed, piloted,
 and measured results accurately. Add a link from `_pages/projects.md`.
 
@@ -77,3 +80,39 @@ Test at `/portfolio/`, `/portfolio/projects/`, `/portfolio/cv/`, and
 navigation, the skip link, downloads, and internal anchors. The curated pages use
 no client-side JavaScript. A public PDF is not necessarily a tagged PDF; HTML is
 the primary accessible reading format.
+
+## Course portfolios and page hierarchy
+
+The homepage and Projects page both include the shared project and course cards.
+Edit those cards once in `_includes/portfolio-case-studies.html` or
+`_includes/portfolio-courses.html` so their descriptions stay consistent.
+
+- INST 7100 collects adult learning and professional development coursework.
+  Accessible & Rigorous is its featured project. The course page currently
+  includes the toolkit and a note that further coursework will be added.
+- INST 7800 collects AI in Education coursework. Its five required sections stay
+  in order: Introduction, Major Projects/Artifacts, Certificates, Reflections,
+  and Final Capstone Project. The AI Error Coach overview links to its complete
+  HTML capstone and the original PDF.
+- Keep project overviews brief. Put detailed evidence in the linked source
+  documents or full HTML edition, and label tested, piloted, and proposed work.
+- The capstone article body and submitted PDFs are source documents. A navigation
+  or layout update should not rewrite them.
+
+### Adding INST 7100 coursework later
+
+1. Upload public-ready files to `files/inst-7100/` and images to
+   `assets/images/portfolio/inst-7100/`. Use lowercase names with hyphens, without
+   spaces. Create these directories only when there are files to upload.
+2. In `_pages/inst-7100.html`, add each artifact under Major Projects/Artifacts
+   with an h3 title, a short first-person summary, and a descriptive link.
+3. Use `relative_url` on every internal path. Put file type and size in each
+   download link, and disclose untagged PDFs beside the links. HTML summaries
+   do not replace a full text alternative for inaccessible source documents.
+4. Replace the More coursework note when additional material is ready. Add a
+   Reflections section and its section-navigation link when there is actual
+   reflection text to publish. Do not invent module names or required sections.
+5. Check that both the course page and project overview link to each other.
+
+The existing source archive contains 58 images and is 14.33 MB (decimal units,
+13.66 MiB). Only its website label was clarified; the archive is unchanged.

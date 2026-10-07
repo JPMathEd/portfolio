@@ -12,11 +12,10 @@ redirect_from:
 
 <div class="container">
   <header class="page-heading">
-    <p class="eyebrow">Experience &amp; continued learning</p><h1>A foundation in teaching.<br><em>A focus on design.</em></h1>
-    <p class="lede">Joshua Plummer · Curriculum Vitae</p>
+    <p class="eyebrow">Joshua Plummer</p><h1>Curriculum vitae</h1>
     <p>Mathematics educator and curriculum developer expanding expertise in instructional technology, professional development, and modern learning systems.</p>
     <div class="button-row"><a class="button primary" href="{{ '/files/portfolio/Joshua_Plummer_CV.pdf' | relative_url }}" download aria-describedby="cv-pdf-note">Download Joshua Plummer's CV (PDF, 122.5 kB) <span aria-hidden="true">↓</span></a><a class="button" href="{{ '/publications/' | relative_url }}">Research &amp; publications <span aria-hidden="true">↗</span></a></div>
-    <p class="small-note mt" id="cv-pdf-note">Updated October 2026. The public PDF omits my street address and telephone number. It is not tagged for screen readers; the HTML sections below provide my education, experience, projects, service, professional learning, honors, and research.</p>
+    <p class="small-note mt" id="cv-pdf-note">Updated October 2026. The PDF is not tagged for screen readers; my education, experience, projects, service, professional learning, honors, and research are also available in HTML below.</p>
   </header>
   <div class="cv-layout">
     <nav class="cv-nav" aria-label="CV sections"><a href="#education">Education</a><a href="#experience">Experience</a><a href="#design">Design &amp; development</a><a href="#service">Leadership &amp; service</a><a href="#development">Professional learning</a><a href="#honors">Awards &amp; honors</a><a href="#research">Research &amp; publications</a></nav>

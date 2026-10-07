@@ -26,7 +26,7 @@
       </a>
       <nav class="main-nav" aria-label="Main navigation">
         {% for item in site.data.navigation.main %}
-        <a href="{{ item.url | relative_url }}"{% if page.section == item.section %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% elsif page.section == item.section %} aria-current="location"{% endif %}>{{ item.title }}</a>
         {% endfor %}
         <a class="nav-contact" href="mailto:{{ site.author.email }}">Let’s connect <span aria-hidden="true">↗</span></a>
       </nav>
@@ -35,8 +35,8 @@
   <main id="main" tabindex="-1">{{ content }}</main>
   <footer class="site-footer">
     <div class="container footer-top">
-      <div><p class="eyebrow">Keep the conversation going</p><h2>Thoughtful design.<br>Meaningful learning.</h2></div>
-      <div class="footer-contact"><p>Interested in mathematics education, accessible course design, or professional learning?</p><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></div>
+      <div><h2>Let’s connect</h2><p>Mathematics education · Accessible course design · Professional learning</p></div>
+      <div class="footer-contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a></div>
     </div>
     <div class="container footer-bottom">
       <p>© {{ site.time | date: '%Y' }} Joshua Plummer · Montgomery, Alabama</p>

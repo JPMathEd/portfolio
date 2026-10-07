@@ -131,3 +131,65 @@ h1,h2,h3,h4,a{overflow-wrap:break-word}.text-link{max-width:100%;min-height:24px
 .capstone-end{padding-top:22px;border-top:1px solid var(--line)}
 @media(max-width:720px){.capstone-contents{padding:22px}.capstone-contents>ul{columns:1}.capstone-document{padding-bottom:40px}.capstone-text{font-size:16px;line-height:1.75}.capstone-edition{padding:17px}.capstone-model,.capstone-evidence{padding:15px}.capstone-visual-text{padding-inline:17px}.capstone-table-wrap table{font-size:16px}.capstone-text>h3{font-size:1.5rem}.capstone-heading h1{font-size:2.15rem;max-width:none}.capstone-heading .breadcrumb{font-size:14px;line-height:1.8}.capstone-contents ul ul{font-size:15px}}
 @media print{.capstone-document{max-width:none;padding:0}.capstone-heading h1{font-size:25pt}.capstone-text{font-size:10pt;line-height:1.5}.capstone-contents>ul{columns:2}.capstone-text>h2{break-before:page;font-size:20pt}.capstone-text h3,.capstone-text h4{break-after:avoid}.capstone-table-wrap{overflow:visible;border:0}.capstone-table-wrap table{min-width:0;font-size:8pt}.capstone-table-wrap th,.capstone-table-wrap td{padding:6px;min-width:0}.capstone-table-wrap thead{display:table-header-group}.capstone-model,.capstone-evidence{border:0;padding:0}.capstone-model img,.capstone-evidence img{max-height:190mm;object-fit:contain}.capstone-back,.capstone-end{display:none}.capstone-transcript{break-inside:auto}}
+
+/* Clear page hierarchy and compact course portfolios. */
+.header-inner{min-height:92px}
+.hero{padding-block:58px 62px;gap:58px}
+.portrait-frame{height:350px}
+.section{padding-block:48px}
+.section-head{margin-bottom:22px}
+.page-heading{padding-block:38px 30px;max-width:960px}
+.page-heading h1{font-size:clamp(2.2rem,4.2vw,3.4rem);line-height:1.13;letter-spacing:-.04em;margin-bottom:18px}
+.page-heading .eyebrow{margin-bottom:14px}
+.page-heading .lede{max-width:760px;margin-bottom:16px}
+.page-heading>p:not(.eyebrow):not(.breadcrumb){max-width:78ch}
+.breadcrumb{font-size:13px;margin-bottom:22px}
+.breadcrumb a{text-decoration:underline}
+.page-heading .button-row{margin-top:20px}
+.section-nav{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
+.section-nav a{display:inline-flex;align-items:center;min-height:36px;font-size:14px;font-weight:600;padding-block:5px}
+.section-nav a:focus-visible{outline-offset:2px}
+#case-studies,#home-projects{padding-top:20px}
+#course-portfolios,#home-courses{border-top:1px solid var(--line)}
+.work-grid{gap:24px;margin-top:0}
+.work-item{display:flex;flex-direction:column;align-items:flex-start;border:1px solid var(--line);border-top:3px solid var(--teal);background:var(--white);padding:28px}
+.work-item h3{font-size:1.9rem}
+.work-item p{font-size:15px;max-width:none}
+.work-item .eyebrow{font-size:11px;color:var(--teal)}
+.work-item .text-link{margin-top:auto;gap:14px;line-height:1.6}
+#course-portfolios .work-item,#home-courses .work-item{background:transparent;border:0;border-top:1px solid var(--line);padding:22px 0 0}
+#course-portfolios .work-item h3,#home-courses .work-item h3{font-size:1.65rem}
+.experience-list{margin:24px 0}
+.experience-list>div{border-top:1px solid var(--line);padding-block:17px}
+.experience-list dt{font-weight:650;color:var(--ink);font-size:15px}
+.experience-list dd{margin:7px 0 0;font-size:15px;max-width:78ch}
+.course-feature{display:grid;grid-template-columns:180px 1fr;gap:32px;padding:28px;background:var(--white);border:1px solid var(--line);align-items:start}
+.course-feature>img{width:100%;height:auto;border:1px solid var(--line)}
+.course-feature .eyebrow{margin-bottom:12px}
+.course-feature h3{font-size:2rem}
+.course-feature p{font-size:16px}
+.course-feature .button-row{margin-top:20px}
+.course-portfolio .case-section>p{max-width:80ch}
+.certificate-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.certificate-grid figure{display:flex;flex-direction:column;gap:16px;padding:20px}
+.certificate-grid h3{font-size:1.45rem;line-height:1.25;margin:0;min-height:3.75em}
+.certificate-grid img{width:100%;height:145px;object-fit:contain}
+.certificate-grid figcaption{padding:0;line-height:1.65;margin-top:auto}
+.process-steps{max-width:80ch}
+.process-steps li{padding-block:4px}
+.case-section>p{max-width:82ch}
+.case-section h2{font-size:clamp(1.9rem,3.1vw,2.6rem)}
+.case-section>figure>img{max-width:860px;margin-inline:auto}
+.capstone-heading h1{max-width:none}
+.capstone-edition{padding:0;border:0;background:transparent;font-size:15px}
+.capstone-contents details{margin:4px 0 8px;font-size:14px}
+.capstone-contents summary{cursor:pointer;line-height:1.5;padding:6px 0;color:var(--muted)}
+.capstone-contents details>ul{margin-top:8px}
+.footer-top{padding-block:30px;gap:30px;grid-template-columns:1fr auto;align-items:center}
+.site-footer h2{font-size:1.7rem;margin-bottom:10px}
+.footer-top p{font-size:12px;max-width:60ch;margin:0}
+.footer-contact{align-self:center}
+@media(min-width:1600px){.hero{padding-block:72px}.portrait-frame{height:380px}}
+@media(max-width:1000px){.hero{gap:35px}.course-feature{grid-template-columns:150px 1fr;gap:24px}.footer-top{grid-template-columns:1fr}.certificate-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.header-inner{min-height:initial}.hero{padding-block:36px 42px;gap:32px}.portrait-frame{height:300px}.section{padding-block:34px}.page-heading{padding-block:28px 26px}.page-heading h1{font-size:2.3rem}.page-heading .lede{font-size:17px}.section-nav{gap:6px 18px}.section-nav a{min-height:40px}.work-grid{gap:20px}.work-item{padding:24px}.work-item h3{font-size:1.7rem}.course-feature{grid-template-columns:1fr;padding:24px}.course-feature>img{width:150px}.certificate-grid{grid-template-columns:1fr}.certificate-grid h3{min-height:0}.certificate-grid img{height:170px}.footer-top{padding-block:28px;gap:20px}.capstone-contents summary{padding-block:10px}}
+@media print{.page-heading{padding-top:0}.page-heading h1{font-size:26pt}.section-nav{display:none}.work-item,.course-feature,.certificate-grid figure{break-inside:avoid}.course-feature{grid-template-columns:130px 1fr}.certificate-grid{grid-template-columns:repeat(3,1fr)}.certificate-grid img{height:100px}}
