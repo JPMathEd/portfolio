@@ -3,7 +3,7 @@ layout: portfolio
 title: "AI Error Coach: Complete Capstone"
 section: projects
 permalink: /projects/ai-error-coach/capstone/
-description: "The complete text of Joshua Plummer’s INST 7800 final capstone, with accessible tables, visual-model descriptions, the full prompt card, rubric, and audit transcripts."
+description: "A web edition of Joshua Plummer’s INST 7800 final capstone, with accessible tables, visual-model descriptions, the full prompt card, rubric, and audit transcripts."
 ---
 
 <div class="container capstone-document">
@@ -13,9 +13,10 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
     <h1>Post-Test Error Diagnosis:<br><em>A Hybrid AI–Human Instructional Model for Mathematics</em></h1>
     <p class="lede">Designing AI-Enhanced Instructional Solutions · Part 2: Final Capstone</p>
     <p>Joshua Plummer · Dr. Lei Wang · October 6, 2026</p>
-    <p class="capstone-edition">This is the complete HTML edition of my submitted capstone. The original text, tables, references, prompt card, rubric, and evidence captions are preserved. I have added text descriptions of the diagrams and transcripts of the audit screenshots, and adapted page-based directions for the web. The version history includes earlier designs; my current design is prompt card v2.2 with an instructor-meeting route. Version 2.2 has not yet been tested. Software and policy descriptions reflect the paper’s October 2026 context.</p>
-    <div class="button-row"><a class="button primary" href="#capstone-contents">Browse capstone contents</a><a class="button" href="{{ '/files/inst-7800/ai-error-coach-capstone.pdf' | relative_url }}" download aria-describedby="complete-capstone-pdf-note">Download the original capstone (PDF, 1.72 MB)</a></div>
-    <p class="small-note" id="complete-capstone-pdf-note">The original PDF is not tagged for screen readers. This HTML edition provides the complete text and text alternatives for its figures.</p>
+    <p class="capstone-edition">This web edition presents my capstone with wording and organization adapted for online reading. It includes the prompt card, rubric, diagram descriptions, and audit transcripts. The PDF preserves the original paper.</p>
+    <p class="small-note">Current design: prompt card v2.2 with an instructor-meeting option. Version 2.2 has not yet been tested.</p>
+    <div class="button-row"><a class="button primary" href="#capstone-contents">Browse capstone contents</a><a class="button" href="{{ '/files/inst-7800/ai-error-coach-capstone.pdf' | relative_url }}" download aria-describedby="complete-capstone-pdf-note">Download the original AI Error Coach capstone (PDF, 1.72 MB)</a></div>
+    <p class="small-note" id="complete-capstone-pdf-note">The PDF is not tagged for screen readers. The complete text and figure descriptions are available on this page.</p>
   </header>
 <nav class="capstone-contents" aria-labelledby="capstone-contents-title" id="capstone-contents">
 <h2 id="capstone-contents-title">Contents</h2>
@@ -26,8 +27,8 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 </li>
 <li><a href="#section-2">2. Hybrid AI Instructional Solution</a>
 <ul>
-<li><a href="#section-2-1">2.1 The Visual Model</a></li>
-<li><a href="#section-2-2">2.2 The AI Error Coach and Its Justification</a></li>
+<li><a href="#section-2-1">2.1 The AI Error Coach: Current Design</a></li>
+<li><a href="#section-2-2">2.2 The Visual Model</a></li>
 <li><a href="#section-2-3">2.3 Learning Theory Integration</a></li>
 <li><a href="#section-2-4">2.4 Refined Through Evaluation</a></li>
 <li><a href="#section-2-5">2.5 Risks, Limitations, and Expected Outcomes</a></li>
@@ -78,16 +79,16 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 </li>
 <li><a href="#appendix-d">Appendix D: Audit Evidence</a>
 </li></ul></nav>
-<p class="capstone-reading-note" id="capstone-table-help">Tables have column and row headings. On a narrow screen, a wide table scrolls horizontally within its own area; keyboard users can focus that area and use the arrow keys. Audit transcripts are open by default and can be collapsed individually.</p>
+<p class="capstone-reading-note" id="capstone-table-help">On narrow screens, wide tables scroll within their own areas. Keyboard users can focus a table area and use the arrow keys to scroll. Screenshot transcripts are open by default and can be collapsed individually.</p>
 <article class="capstone-text" aria-label="Complete capstone text">
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="overview" tabindex="-1">Overview</h2>
 
-<p>Typically, students get a graded mathematics test back, see which problems they missed, and move on to the next unit. What they rarely do is figure out where their reasoning went wrong, so the same mistakes follow them into later topics. This capstone brings together my work on that problem from Modules 5 through 8. My answer is the AI Error Coach: a prompt card (<a href="#appendix-a">Appendix A</a>) that turns a free chatbot into a coach that only asks questions about a student’s own work and never gives the answer. Any student who can’t or won’t use the chatbot can work through the same six steps with me in a short meeting instead.</p>
+<p>I designed the AI Error Coach to help students learn from a missed mathematics problem after a graded test. Students use a prompt card (<a href="#appendix-a">Appendix A</a>) to guide a free chatbot through questions about their own reasoning, or work through the same six steps with me in a short meeting. The card instructs the chatbot to coach without supplying answers, and I grade the student’s own Error Analysis. This capstone brings together the design, testing, equity audit, and leadership plan I developed in Modules 5 through 8.</p>
 
 <p>The sections follow the order of the final assignment. <a href="#section-1">Section 1</a> describes the problem, and <a href="#section-2">Section 2</a> lays out the hybrid design, the learning theory behind it, and how testing changed it. <a href="#section-3">Section 3</a> evaluates the coach with the DOMS rubric, and <a href="#section-4">Section 4</a> proposes a study that would show whether it works. <a href="#section-5">Section 5</a> audits the coach for equity and accessibility, <a href="#section-6">Section 6</a> is my plan for leading its use beyond my own sections, and <a href="#section-7">Section 7</a> describes my philosophy of AI leadership.</p>
 
-<p>It’s important to note that the coach kept changing as I worked on it. Each evaluation tested the version of the card that existed at the time, so the second table below shows which version each part describes. Codes such as S4 refer to the equity audit’s test sessions (<a href="#section-5-1">Section 5.1</a>), and R1–R8 refer to the Module 6 testing rounds (<a href="#appendix-b">Appendix B</a>).</p>
+<p>The coach changed as I tested it. Each evaluation tested the version of the card that existed at the time, so the second table below shows which version each part describes. Codes such as S4 refer to the equity audit’s test sessions (<a href="#section-5-1">Section 5.1</a>), and R1–R8 refer to the Module 6 testing rounds (<a href="#appendix-b">Appendix B</a>).</p>
 
 <h3 id="where-each-section-came-from" tabindex="-1">Where each section came from</h3>
 
@@ -126,33 +127,36 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-1" tabindex="-1">1. The Educational Challenge</h2>
 
-<p><em>Built in Module 5    rewritten in Module 7</em></p>
+<p><em>Built in Module 5  ·  rewritten in Module 7</em></p>
 
 <p>Typically in mathematics courses, students receive a graded test, see which items they missed, perhaps ask where the points went, and then move on to the next unit. What they rarely do is name the reasoning that failed. This matters because mathematics is cumulative: a student who believes a polynomial’s leading term is its largest coefficient carries that belief into rational functions and limits. In my experience, university mathematics courses seldom allow corrections, and where they do, credit goes to a correct answer that the student may or may not understand.</p>
 
 <p>Who makes those mistakes matters just as much. Any one of my students might be a dual-enrollment student still in high school, an adult fitting coursework around a job, a student who listens to the screen rather than reads it, or one who writes more comfortably in Spanish. A remedy has to work for all of them, and my Module 7 equity audit (<a href="#section-5">Section 5</a>) showed how easily a remedy can work well for some students and poorly for others.</p>
 
-<p>One way to address the problem is to guide students through reflection on each missed problem: what thinking did they use, where did it go wrong, and what should change next time? One instructor can’t walk every student through that process, because it requires individualized questioning. A chatbot can, though, and that is the warrant for using AI here.</p>
+<p>One way to address the problem is to guide students through reflection on each missed problem: what thinking did they use, where did it go wrong, and what should change next time? I can’t provide that individual questioning to every student at once. A chatbot could extend the support I offer, which is why I’m exploring AI for this task.</p>
 
-<p>There isn’t much research behind that warrant yet. As <a href="#section-4">Section 4</a> shows, gateway college mathematics is almost invisible in the research on AI in education, so the case for this design has to rest on learning theory and on my own testing.</p>
+<p>There isn’t much research on this particular use of AI yet. As <a href="#section-4">Section 4</a> shows, gateway college mathematics is almost invisible in the research on AI in education, so the case for this design has to rest on learning theory and on my own testing.</p>
 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-2" tabindex="-1">2. Hybrid AI Instructional Solution</h2>
 
-<p><em>Built in Module 5    refined through testing in Module 6 and the equity audit in Module 7</em></p>
+<p><em>Built in Module 5  ·  refined through testing in Module 6 and the equity audit in Module 7</em></p>
 
-<h3 id="section-2-1" tabindex="-1">2.1 The Visual Model</h3>
+<h3 id="section-2-1" tabindex="-1">2.1 The AI Error Coach: Current Design</h3>
 
-<p>The revised model follows the list below. Compared with the Module 5 version, six things changed.</p>
+<p>The tool is a prompt card, now in version 2.2 (<a href="#appendix-a">Appendix A</a>), that a student pastes into a new ChatGPT chat, either as a guest or on a free account. After each test, the student reworks one missed problem. The card instructs the coach to ask how the student wants math written and to read their problem and work back exactly before coaching. It then directs the coach through six steps: the student’s original thinking, the first point where their reasoning broke, the type of error, a line-by-line repair, a cue for next time, and a new problem from their own life.</p>
 
-<ul>
-<li><p><strong>A meeting with me exists as an alternate lane to the AI Error Coach.</strong> In the Module 5 model, the option without AI was a small box off to the side. Now a meeting with me runs the same six steps and help ladder as the coach, with me serving as the error coach. An <strong>OR</strong> between the two coaching lanes shows that the meeting is an equal route and that the student chooses between them.</p></li>
-<li><p><strong>The Gemini Notebook is gone.</strong> I like the idea of the Gemini Notebook supplement and it carried real weight for UDL considerations, but at the end of the day, the notebook felt artificially tacked on. Its job was to give students a second way to see the explanation, and that now happens inside the coach, which offers math in symbols, words, or both, and in the meeting. The notebook’s lane and its verification check were removed along with it.</p></li>
-<li><p><strong>A UDL layer marks where each principle shows up.</strong> Five badges of three kinds (E for engagement, R for representation, and A for action and expression) sit on the cells where those principles appear, and a legend ties them to Song et al. (2024) and CAST (2024).</p></li>
-<li><p><strong>The coach and student lanes show new choices.</strong> Students now choose their route at the start, and at Reflect they build a new problem from their own lives. At Submit, every student submits their own reflection, and students who used the chat also add screenshots.</p></li>
-<li><p><strong>The instructor lane now includes the rubric.</strong> Along with the coach card, students get the rubric their Error Analysis is graded against before they start.</p></li>
-<li><p><strong>Evidence and outcomes track the two routes.</strong> The Evidence lane now records which route students chose and which settings they pick for their new problems, and the outcomes add one equity goal: similar results on both routes.</p></li>
-</ul>
+<p>The help ladder is intended to give hints in stages, starting with a gentle question and building toward naming the rule to check, but only after the student has tried. If the student stays stuck, the card instructs the coach to stop and flag the problem for me. What I grade is the student’s own Error Analysis, and students see the rubric for it (<a href="#appendix-c">Appendix C</a>) before they start. Every student also submits their own reflection, and students who use the chat include screenshots of the conversation.</p>
+
+<p>Any student who can’t or won’t use ChatGPT can instead work through the same six steps with me in a short meeting, in person or by video, using the printed six-step sheet as our agenda. Afterward, they write the same Error Analysis and submit their own reflection, just as students who use the chat do.</p>
+
+<p>Version 2.2 incorporates lessons from eight rounds of testing in Module 6 and the equity audit in Module 7, but it has not yet been tested. <a href="#section-2-4">Section 2.4</a> records how those findings changed the design.</p>
+
+<h3 id="section-2-2" tabindex="-1">2.2 The Visual Model</h3>
+
+<p>The model follows one missed problem from the returned test to my review of the student’s work. Its lanes show what I do, what the AI coach is instructed to do, what happens in a meeting with me, what the student does, and what evidence I plan to collect. The two coaching routes use the same six steps; students choose the route that works for them. The outcomes shown are goals, not measured results.</p>
+
+<p>The model also marks the learning principles explained in <a href="#section-2-3">Section 2.3</a>. <a href="#section-2-4">Section 2.4</a> describes how the model changed from its first version.</p>
 
 <figure class="capstone-model" id="visual-model">
 <img src="{{ '/assets/images/portfolio/inst-7800/ai-error-coach-visual-model.png' | relative_url }}" width="1584" height="1224" alt="Five-lane visual model of post-test error diagnosis. The complete text description follows, organized by stage, learning-theory marker, and UDL badge." loading="lazy">
@@ -162,8 +166,8 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <div class="capstone-visual-text" aria-labelledby="visual-model-text-title">
 <h4 id="visual-model-text-title">Complete text description of the visual model</h4>
 <p><strong>The challenge:</strong> Students get a graded test back, see which problems they missed, and move on to the next unit. What they rarely do is figure out where their reasoning went wrong, so the same mistakes follow them into later topics.</p>
-<p><strong>The AI tool:</strong> The AI Error Coach is a page of instructions, which students paste into a free ChatGPT chat. From then on, the chatbot only asks questions about the student's own work. Students who skip the AI get the same questions from me. It never grades, never gives an answer, never solves the problem for them, and never repeats identifiable information.</p>
-<p>The model moves through seven stages from left to right. Its five lanes are Instructor, AI Error Coach, Meeting with me, Student, and Evidence. “OR” between the coaching lanes means the student chooses a chat or an instructor meeting. Cells not described below are blank in the source.</p>
+<p><strong>The AI tool:</strong> The AI Error Coach is a page of instructions, which students paste into a free ChatGPT chat. The card directs the chatbot to ask questions about the student's own work. Students who skip the AI get the same questions from me. The card prohibits grading, giving answers, solving the problem for the student, and repeating identifiable information.</p>
+<p>The model shows the intended process, not evidence that the coach consistently follows it. It moves through seven stages from left to right. Its five lanes are Instructor, AI Error Coach, Meeting with me, Student, and Evidence. “OR” between the coaching lanes means the student chooses a chat or an instructor meeting. Cells not described below are blank in the source.</p>
 <ol>
 <li><strong>Test returned.</strong> The instructor returns tests marked but not explained, and shares the coach card and rubric. The AI coach asks whether to write math in symbols, words, or both. The student picks a missed problem and chooses a chat or meeting. Evidence: types of errors on the test.</li>
 <li><strong>Find the mistake.</strong> The AI coach asks about each step and never gives answers. The student explains each step and finds where it broke. Evidence: how often students ask for answers.</li>
@@ -189,27 +193,19 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 </div>
 
 
-<h3 id="section-2-2" tabindex="-1">2.2 The AI Error Coach and Its Justification</h3>
-
-<p>The tool is a prompt card, now in version 2.2 (<a href="#appendix-a">Appendix A</a>), that a student pastes into a new ChatGPT chat, either as a guest or on a free account. After each test, the student reworks one missed problem. The coach first asks how they want math written and reads their problem and work back exactly. It then questions them through six steps: their original thinking, the first point where their reasoning broke, the type of error, a line-by-line repair, a cue for next time, and a new problem from their own life. When a student is stuck, the coach gives hints in stages, starting with a gentle question and building toward naming the rule to check, but only after the student has tried. If they stay stuck, the coach stops and flags the problem for me. What I grade is the student’s own Error Analysis, and students see the rubric for it (<a href="#appendix-c">Appendix C</a>) before they start. Every student also submits their own reflection, and students who use the chat include screenshots of the conversation.</p>
-
-<p>Any student who can’t or won’t use ChatGPT can instead work through the same six steps with me in a short meeting, in person or by video, using the printed six-step sheet as our agenda. Afterward, they write the same Error Analysis and submit their own reflection, just as students who use the chat do.</p>
-
-<p>Version 2.2 reflects eight rounds of testing in Module 6 and the equity audit in Module 7, and <a href="#section-2-4">Section 2.4</a> logs what each one changed.</p>
-
-<p>Chiu’s (2025) intelligent-TPACK framework still fits this design best, since a student-facing tool depends on what the teacher knows about technology, content, pedagogy, human–AI collaboration, and ethics. In particular, I have to know how the model fails, test its questions against the mathematics, and decide which questions get asked and when. Ethically, the coach never repeats a student’s identifiable information, and no student’s grade depends on accepting a consumer tool’s terms. Chiu describes this role as the teacher acting as a validator of AI-generated knowledge rather than a deliverer of content (p. 4189).</p>
-
 <h3 id="section-2-3" tabindex="-1">2.3 Learning Theory Integration</h3>
+
+<p>Chiu’s (2025) intelligent-TPACK framework helps explain my role in this design, since a student-facing tool depends on what the teacher knows about technology, content, pedagogy, human–AI collaboration, and ethics. In particular, I have to know how the model fails, test its questions against the mathematics, and decide which questions get asked and when. The card prohibits repeating a student’s identifiable information, and the meeting route means that no student’s grade depends on accepting a consumer tool’s terms. Chiu describes this role as the teacher acting as a validator of AI-generated knowledge rather than a deliverer of content (p. 4189).</p>
 
 <p>The design rests on four mechanisms from Ormrod (2011), each marked on the model, with Universal Design for Learning layered over all four.</p>
 
 <h4 id="immediate-and-contingent-reinforcement" tabindex="-1">Immediate and Contingent Reinforcement</h4>
 
-<p>A consequence strengthens behavior only when it promptly follows the learner’s own response (Ormrod, 2011, pp. 51–52), and feedback works best when it tells a student what has and hasn’t been learned (p. 55). Because the coach responds only after the student explains their thinking, repeat errors of the same type should decline across tests.</p>
+<p>A consequence strengthens behavior only when it promptly follows the learner’s own response (Ormrod, 2011, pp. 51–52), and feedback works best when it tells a student what has and hasn’t been learned (p. 55). By requiring the coach to respond to the student’s own reasoning, I aim to help students make fewer errors of the same type across tests.</p>
 
 <h4 id="attempt-always-first" tabindex="-1">Attempt Always First</h4>
 
-<p>Reinforcing every request for help produces dependence on the helper, so Ormrod recommends reinforcing requests only after a stretch of independent work, which she calls a differential rate of low responding (pp. 70–71). The audit showed why this matters: a coach that gives more help after a student pleads is rewarding the pleading. For that reason, version 2.2 ties each step up the help ladder to an attempt, never to a deadline or a plea.</p>
+<p>Reinforcing every request for help produces dependence on the helper, so Ormrod recommends reinforcing requests only after a stretch of independent work, which she calls a differential rate of low responding (pp. 70–71). The audit showed why this matters: a coach that gives more help after a student pleads is rewarding the pleading. For that reason, version 2.2 instructs the coach to move up the help ladder only after an attempt, never in response to a deadline or a plea.</p>
 
 <h4 id="diagnosis-over-correction" tabindex="-1">Diagnosis Over Correction</h4>
 
@@ -223,7 +219,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 
 <h4 id="designing-for-variability" tabindex="-1">Designing for Variability</h4>
 
-<p>Universal Design for Learning starts from the premise that learners vary, so a design should plan for that variation from the beginning (CAST, 2024; Song et al., 2024, p. 2). It’s important to note that Song et al. wrote for K–12 courses that teach AI as a subject (pp. 2, 4), so I borrow their practices rather than their setting. For representation, the coach asks every student how they want math written instead of waiting for a student to disclose a disability. That matters because many people never disclose: Henneborn (2023) reports that 76% of employees with disabilities hadn’t fully disclosed them at work (p. 2). For action and expression, students choose between a chat and a meeting. For engagement, they build their transfer problem from their own lives, the kind of personally relevant work Song et al. recommend (p. 7).</p>
+<p>Universal Design for Learning starts from the premise that learners vary, so a design should plan for that variation from the beginning (CAST, 2024; Song et al., 2024, p. 2). It’s important to note that Song et al. wrote for K–12 courses that teach AI as a subject (pp. 2, 4), so I borrow their practices rather than their setting. For representation, the card instructs the coach to ask every student how they want math written instead of waiting for a student to disclose a disability. That matters because many people never disclose: Henneborn (2023) reports that 76% of employees with disabilities hadn’t fully disclosed them at work (p. 2). For action and expression, students choose between a chat and a meeting. For engagement, they build their transfer problem from their own lives, the kind of personally relevant work Song et al. recommend (p. 7).</p>
 
 <h3 id="section-2-4" tabindex="-1">2.4 Refined Through Evaluation</h3>
 
@@ -245,6 +241,19 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <tr><th scope="row">v2.2</th><td>Module 7</td><td>Completely restructured for Luna, with the hard rules first, a check for each step, a numbered help ladder, a tracker line, and a self-check before each reply. It incorporates the changes suggested by the audit’s three recommendations, a notes-or-textbook question before the coach stops, and the step where students build their own transfer problem. It also drops the precalculus label, so the card works in any mathematics or statistics course. Important to note: the card size needs to be considered carefully. The card grew from 1,176 to 1,644 words, and a longer card may be harder for the model to follow, so its length needs testing too.</td><td>The equity audit’s 12 sessions</td></tr>
 </tbody></table></div>
 
+<h4 id="how-the-visual-model-changed" tabindex="-1">How the Visual Model Changed</h4>
+
+<p>Six changes distinguish the current model from the Module 5 design.</p>
+
+<ul>
+<li><p><strong>The instructor meeting has its own lane.</strong> In the Module 5 model, the option without AI was a small box off to the side. Now a meeting with me runs the same six steps and help ladder as the coach, with me serving as the error coach. An <strong>OR</strong> between the two coaching lanes shows that the meeting is an equal route and that the student chooses between them.</p></li>
+<li><p><strong>I removed the Gemini Notebook.</strong> I had included it to give students another way to access explanations, but it felt disconnected from the coaching process. The revised card instead asks the coach to offer math in symbols, words, or both, and students can hear the math in a meeting with me. I removed the notebook’s lane and its verification check.</p></li>
+<li><p><strong>A UDL layer marks where each principle shows up.</strong> Five badges of three kinds (E for engagement, R for representation, and A for action and expression) sit on the cells where those principles appear, and a legend ties them to Song et al. (2024) and CAST (2024).</p></li>
+<li><p><strong>The coach and student lanes show new choices.</strong> Students now choose their route at the start, and at Reflect they build a new problem from their own lives. At Submit, every student submits their own reflection, and students who used the chat also add screenshots.</p></li>
+<li><p><strong>The instructor lane now includes the rubric.</strong> Along with the coach card, students get the rubric their Error Analysis is graded against before they start.</p></li>
+<li><p><strong>Evidence and outcomes track the two routes.</strong> The Evidence lane now records which route students chose and which settings they pick for their new problems, and the outcomes add one equity goal: similar results on both routes.</p></li>
+</ul>
+
 <h3 id="section-2-5" tabindex="-1">2.5 Risks, Limitations, and Expected Outcomes</h3>
 
 <p>Because the card is copy-and-paste text, a student could edit it. Still, the version line at the top of every screenshot shows whether they used the real card. The larger risk is that I don’t control the model, its terms, or what happens to student data. Free accounts train on student work unless students opt out, students under 18 need a parent’s permission (OpenAI, 2026c), and the quality of the coaching depends on what a student pays, which is an allocative harm in Baker and Hawn’s (2022) sense (p. 1055). The meeting route means that no grade depends on accepting those terms, and an API-based coach that I provide would give every student the same model. That coach needs FERPA-compliant hosting and campus approval, though, so it will come after this course. Version 2.2 is also untested, and at 1,644 words it is longer than version 2.1’s 1,176, which may make it harder for the model to follow.</p>
@@ -260,7 +269,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-3" tabindex="-1">3. AI Tool Evaluation</h2>
 
-<p><em>Module 6    scores for prompt card v2.0</em></p>
+<p><em>Module 6  ·  scores for prompt card v2.0</em></p>
 
 <p>One question runs through this section and the next: does support like this build students’ learning and their skill at diagnosing their own errors, or does it do that work for them?</p>
 
@@ -312,7 +321,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-4" tabindex="-1">4. Research Direction</h2>
 
-<p><em>Module 6    updated for the meeting route added in Module 7</em></p>
+<p><em>Module 6  ·  updated for the meeting route added in Module 7</em></p>
 
 <h3 id="section-4-1" tabindex="-1">4.1 The Research Landscape</h3>
 
@@ -383,9 +392,9 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-5" tabindex="-1">5. Equity and Accessibility</h2>
 
-<p><em>Module 7    an audit of prompt card v2.1 and the revisions it prompted</em></p>
+<p><em>Module 7  ·  an audit of prompt card v2.1 and the revisions it prompted</em></p>
 
-<p>In summary, the coach kept its firmest promises to every student that was modeled. It never gave an answer or an outright verdict on any question, and it never repeated any identifiable student information. Its judgment calls were another matter. Help went furthest for whoever pushed hardest, and three groups intrinsically received a lesser quality of coaching: students on the free tier, students who use a screen reader, and students who don’t critically review the AI’s output. The twelve test sessions corroborate these findings.</p>
+<p>During these twelve simulated audit sessions, the coach did not supply final answers or repeat identifiable student information. It did, however, sometimes approve an error category or supply part of the diagnosis. Help also increased when I pushed for it. In these sessions, weaker coaching or fewer safeguards affected three groups: students on the free tier, students who use a screen reader, and students who don’t critically review the AI’s output. These findings describe the sessions I ran; they do not establish how often the same failures would occur with students.</p>
 
 <h3 id="section-5-1" tabindex="-1">5.1 The Tool and How I Tested</h3>
 
@@ -399,7 +408,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <tr><th scope="row">Tool</th><td>ChatGPT defined by an “Error Coach” prompt card (v2.1)</td></tr>
 <tr><th scope="row">Access</th><td>chatgpt.com or the ChatGPT app. Students paste the prompt card into a new chat to begin. This is possible via guest chat or by signing in to a personal account.</td></tr>
 <tr><th scope="row">Model</th><td>GPT-5.6 Luna Instant, which is the standard model for guest and free accounts. Free accounts can also enter “Think Mode” for more reasoning on a single message. GPT-5.6 Sol was run once, for comparison (S1).</td></tr>
-<tr><th scope="row">Purpose</th><td>Students in a mathematics or statistics class rework a missed problem from a returned test. The coach’s questions help them find, classify, and repair the error. They then write their own Error Analysis. Students who do not wish to use AI can work directly with me instead (<a href="#section-2-2">Section 2.2</a>).</td></tr>
+<tr><th scope="row">Purpose</th><td>Students in a mathematics or statistics class rework a missed problem from a returned test. The coach’s questions help them find, classify, and repair the error. They then write their own Error Analysis. Students who do not wish to use AI can work directly with me instead (<a href="#section-2-1">Section 2.1</a>).</td></tr>
 </tbody></table></div>
 
 <p><strong>How I tested.</strong> On October 1, 2026, I engaged with the coach by modeling certain archetypal student behavior. The results were checked against the rules and guidelines defined by the prompt card. Each session ran only as far as its probe needed, so several ended before the coaching was complete. <strong>Not tested:</strong> phones, the ChatGPT app, connection speed, whether a screen reader can operate the message box and attach button, and languages other than English and Spanish.</p>
@@ -449,7 +458,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 
 <h3 id="section-5-3" tabindex="-1">5.3 Access Audit</h3>
 
-<p>This AI tool is highly accessible, but it’s more accessible to some. Baker and Hawn (2022) would call this an allocative harm, a resource unfairly distributed across groups (p. 1055); here the resource is coaching quality.</p>
+<p>Easy access to the tool did not guarantee equally useful coaching. Baker and Hawn (2022) would call this an allocative harm, a resource unfairly distributed across groups (p. 1055); here the resource is coaching quality.</p>
 
 <div class="capstone-table-wrap" role="region" tabindex="0" aria-labelledby="capstone-table-10-caption" aria-describedby="capstone-table-help">
 <table id="capstone-table-10">
@@ -472,7 +481,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 
 <h3 id="section-5-4" tabindex="-1">5.4 FATE Analysis</h3>
 
-<p>I’d score the coach <strong>12 of 20</strong>, using Memarian and Doleck’s (2023) four principles. It kept its firmest rules for every student, but struggled with softer ones.</p>
+<p>I’d score the coach <strong>12 of 20</strong>, using Memarian and Doleck’s (2023) four principles. In these sessions, it withheld final answers, but it did not consistently follow the rules for hints, diagnosis, and stopping.</p>
 
 <div class="capstone-table-wrap" role="region" tabindex="0" aria-labelledby="capstone-table-11-caption" aria-describedby="capstone-table-help">
 <table id="capstone-table-11">
@@ -505,7 +514,7 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <tr><th scope="row"><strong>Action &amp; Expression</strong></th><td><strong>3</strong></td><td>Students can answer by photo or typing, in Spanish or casual English, and were never corrected (S3b, S8). The six steps scaffold what Song et al. call executive function (p. 8). But typed math goes unchecked for ambiguity (S4).</td></tr>
 </tbody></table></div>
 
-<p><strong>Biggest strength:</strong> it lets students in through many doors and never talks down to anyone. <strong>Biggest gap:</strong> the math itself reaches a listening student only if they know to ask for words. That gap drives Recommendation 3 (<a href="#section-5-7">Section 5.7</a>). The UDL layer on the visual model (<a href="#section-2-1">Section 2.1</a>) marks where each principle shows up in the revised design.</p>
+<p><strong>Biggest strength:</strong> it lets students in through many doors and never talks down to anyone. <strong>Biggest gap:</strong> the math itself reaches a listening student only if they know to ask for words. That gap drives Recommendation 3 (<a href="#section-5-7">Section 5.7</a>). The UDL layer on the visual model (<a href="#section-2-2">Section 2.2</a>) marks where each principle shows up in the revised design.</p>
 
 <h3 id="section-5-6" tabindex="-1">5.6 Data Privacy Audit</h3>
 
@@ -825,11 +834,11 @@ description: "The complete text of Joshua Plummer’s INST 7800 final capstone, 
 <p class="capstone-back"><a href="#capstone-contents">Back to capstone contents</a></p>
 <h2 id="section-7" tabindex="-1">7. My AI Leadership Philosophy</h2>
 
-<p><em>New in Module 8    the reflective essay</em></p>
+<p><em>New in Module 8  ·  the reflective essay</em></p>
 
 <p>Before this course, I mostly saw AI as a way to clear low-level, time-consuming work off my plate. One of the sessions in my professional learning toolkit, <em>Accessible and Rigorous: Designing Mathematics Instruction for the Modern Learner</em>, came from that view. In <em>Your Page, Rebuilt</em>, instructors can use AI-assisted HTML to save time as they redesign Canvas pages for accessibility. That kind of work still matters. But over these eight modules, I slowly came to see that AI can be much more than a quick way to produce materials. Once learning theories entered the design process, AI became a much richer tool for me, one that can be used in nuanced and important ways. The AI Error Coach is my clearest example. It isn’t a faster way to make a worksheet; its design rests on what learning theory says about how students learn from their own mistakes (Ormrod, 2011).</p>
 
-<p>At the center of my philosophy is a human-centered approach, and it shapes how I’d lead any decision about AI. The first question I ask is whether a use of AI helps students fully learn, not just pass the class. The second is who keeps the judgment. AI can take on tasks like questioning or drafting, but decisions about what a student understands belong to people, because three students can make the same mistake for three different reasons (U.S. Department of Education, 2023, p. 13). The third is who a tool leaves out. My equity audit taught me that a tool can be highly accessible and still be more accessible to some. So I wouldn’t ask students or colleagues to adopt an AI tool without checking who it leaves out first and offering a route that doesn’t depend on it.</p>
+<p>At the center of my philosophy is a human-centered approach, and it shapes how I’d lead any decision about AI. The first question I ask is whether a use of AI helps students fully learn, not just pass the class. The second is who keeps the judgment. AI can take on tasks like questioning or drafting, but decisions about what a student understands belong to people, because three students can make the same mistake for three different reasons (U.S. Department of Education, 2023, p. 13). The third is who a tool leaves out. My equity audit taught me that easy access to a tool does not guarantee equally useful support. So I wouldn’t ask students or colleagues to adopt an AI tool without checking who it leaves out first and offering a route that doesn’t depend on it.</p>
 
 <p>I also believe in moving more slowly than AI itself does. There’s a real case for moving fast, since AI is here to stay and students are already using it. Still, rushed rollouts can leave both students and faculty confused and frustrated. I prefer to sequence a rollout so that only one major change happens at a time. That way, when a problem comes up, I can trace it to its cause, and the tool’s progression stays clear. It’s why every version of the coach goes into a version log, and why each phase of my implementation timeline waits on evidence from the phase before it. The U.S. Department of Education (2023) makes a similar case when it argues that the people most affected by AI should help shape how it’s used, even if that slows adoption down (p. 10). A slow rollout doesn’t mean standing still, though. I’m happy to dive into my own experiments head-first; what I slow down is how quickly they reach my students and colleagues.</p>
 
