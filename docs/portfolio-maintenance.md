@@ -11,6 +11,7 @@ No new service, build workflow, JavaScript dependency, or authentication is requ
 - Homepage: `_pages/about.md`
 - Projects index: `_pages/projects.md`
 - Project overviews: `_pages/accessible-and-rigorous.html` and `_pages/ai-error-coach.html`
+- Complete HTML editions: `_pages/accessible-and-rigorous-toolkit.html` and `_pages/ai-error-coach-capstone.html`
 - Course portfolios: `_pages/inst-7100.html` and `_pages/inst-7800.html`
 - Shared project cards: `_includes/portfolio-case-studies.html`
 - Shared course cards: `_includes/portfolio-courses.html`
@@ -34,17 +35,29 @@ were not carried forward without confirmation. The public PDF at
 content but removes the street address and telephone number. Review professional
 contact details and date ranges before merging.
 
-The uploaded toolkit was a ZIP of 58 numbered PNG images, not a PDF. Its archive
-is preserved as supplied at `files/portfolio/Accessible_and_Rigorous_Source_Pages.zip`.
-The case study has a semantic HTML overview and explicitly labels the original
-image archive's accessibility limitations. Replacing it with a properly tagged,
-searchable source PDF is a worthwhile follow-up; do not describe this archive as
-accessible or rename it to `.pdf`.
+The October 7, 2026 toolkit PDF and its matching LaTeX are the current sources.
+The complete HTML edition preserves the seven parts, three sessions, twelve
+worksheets, six tables, and 36 references, adapting layout and navigation for
+the web. It is available at `/projects/accessible-and-rigorous/toolkit/`.
+Worksheet spaces are reading and printing aids, not interactive form fields.
+
+The current download is `files/inst-7100/accessible-and-rigorous-toolkit.pdf`
+(56 pages, 393,737 bytes; label as PDF, 393.7 kB). It is an unchanged copy of the
+supplied publication. Its metadata reports document tags; this alone does not
+establish complete accessibility conformance. HTML remains the primary reading
+format. The course page, project overview, and full HTML edition use this PDF.
+The older image archive remains in the repository for existing direct links,
+but is no longer the featured download.
+
+Toolkit previews are rendered from the current PDF: cover on page 1, announcement
+comparison on page 23, and AI Prompt Frame on page 42. The previews link to the
+corresponding HTML content. When replacing the PDF, update those images, page
+numbers, the complete HTML content, and all download-size labels together.
 
 The case study distinguishes planned sessions from the one-to-one July 17, 2026
 delivery of *Your Page, Rebuilt*. The pilot supported a facilitation revision, not
 a claim about measured student outcomes or validation of the entire toolkit.
-The provided toolkit's page 25 is the source for that reflection.
+The current toolkit's page 24 is the source for that reflection.
 
 ## Adding a project
 
@@ -89,14 +102,15 @@ Edit those cards once in `_includes/portfolio-case-studies.html` or
 
 - INST 7100 collects adult learning and professional development coursework.
   Accessible & Rigorous is its featured project. The course page currently
-  includes the toolkit and a note that further coursework will be added.
+  links to the project overview, complete HTML toolkit, and current PDF, with
+  a note that further coursework will be added.
 - INST 7800 collects AI in Education coursework. Its five required sections stay
   in order: Introduction, Major Projects/Artifacts, Certificates, Reflections,
   and Final Capstone Project. The AI Error Coach overview links to its complete
   HTML capstone and the original PDF.
 - Keep project overviews brief. Put detailed evidence in the linked source
   documents or full HTML edition, and label tested, piloted, and proposed work.
-- The capstone article body and submitted PDFs are source documents. A navigation
+- The capstone and toolkit article bodies and submitted PDFs are source documents. A navigation
   or layout update should not rewrite them.
 
 ### Adding INST 7100 coursework later
@@ -114,5 +128,8 @@ Edit those cards once in `_includes/portfolio-case-studies.html` or
    reflection text to publish. Do not invent module names or required sections.
 5. Check that both the course page and project overview link to each other.
 
-The existing source archive contains 58 images and is 14.33 MB (decimal units,
-13.66 MiB). Only its website label was clarified; the archive is unchanged.
+For the full toolkit, verify all nine main contents links, all twelve worksheet
+links, the six tables, and the reciprocal links to the course and overview.
+Confirm the PDF has 56 pages and opens from each reading route. The current PDF
+has tags; the separate companion PDFs and INST 7800 PDFs retain their existing
+accessibility notes. Do not apply one document's tagging status to all downloads.

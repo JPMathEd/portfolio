@@ -193,3 +193,66 @@ h1,h2,h3,h4,a{overflow-wrap:break-word}.text-link{max-width:100%;min-height:24px
 @media(max-width:1000px){.hero{gap:35px}.course-feature{grid-template-columns:150px 1fr;gap:24px}.footer-top{grid-template-columns:1fr}.certificate-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.header-inner{min-height:initial}.hero{padding-block:36px 42px;gap:32px}.portrait-frame{height:300px}.section{padding-block:34px}.page-heading{padding-block:28px 26px}.page-heading h1{font-size:2.3rem}.page-heading .lede{font-size:17px}.section-nav{gap:6px 18px}.section-nav a{min-height:40px}.work-grid{gap:20px}.work-item{padding:24px}.work-item h3{font-size:1.7rem}.course-feature{grid-template-columns:1fr;padding:24px}.course-feature>img{width:150px}.certificate-grid{grid-template-columns:1fr}.certificate-grid h3{min-height:0}.certificate-grid img{height:170px}.footer-top{padding-block:28px;gap:20px}.capstone-contents summary{padding-block:10px}}
 @media print{.page-heading{padding-top:0}.page-heading h1{font-size:26pt}.section-nav{display:none}.work-item,.course-feature,.certificate-grid figure{break-inside:avoid}.course-feature{grid-template-columns:130px 1fr}.certificate-grid{grid-template-columns:repeat(3,1fr)}.certificate-grid img{height:100px}}
+
+/* Complete toolkit: source content with web navigation and readable worksheets. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.toolkit-document{min-width:0}
+.toolkit-introduction{max-width:78ch;margin-bottom:32px}
+.toolkit-introduction h2,.toolkit-worksheet-index h2{font-size:2rem}
+.toolkit-key{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-block:26px}
+.toolkit-key>div{border-top:3px solid var(--teal);padding-top:12px}
+.toolkit-key>div:nth-child(2){border-color:var(--gold)}
+.toolkit-key>div:nth-child(3){border-color:var(--muted)}
+.toolkit-key dt,.toolkit-glance dt,.toolkit-fields dt{font-weight:650;color:var(--ink)}
+.toolkit-key dd{margin:6px 0 0;font-size:15px;line-height:1.6}
+.toolkit-contents>ul{columns:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 40px}
+.toolkit-contents>ul>li{margin-bottom:0}
+.toolkit-contents>ul>li>a{font-weight:650}
+.toolkit-contents summary{min-height:36px}
+.toolkit-worksheet-index{padding:26px 0;border-block:1px solid var(--line);scroll-margin-top:24px}
+.toolkit-worksheet-index ol{columns:2;column-gap:40px;margin-bottom:0;padding-left:26px}
+.toolkit-worksheet-index li{break-inside:avoid;padding-left:4px}
+.toolkit-worksheet-index a{display:inline-block;padding-block:6px;font-size:16px;line-height:1.5}
+.toolkit-text .toolkit-back{margin-top:42px;margin-bottom:8px;font-size:14px}
+.toolkit-back a{display:inline-block;padding-block:7px}
+.toolkit-text>.eyebrow{margin:22px 0 10px}
+.toolkit-text>h2{padding-top:20px;margin-bottom:16px}
+.toolkit-subtitle{color:var(--muted);max-width:76ch;margin-bottom:24px;font-size:17px}
+.toolkit-lead{font-size:20px;font-weight:550;color:var(--ink)}
+.toolkit-glance{padding:24px 28px;border-left:3px solid var(--teal);background:var(--sage);margin-block:28px}
+.toolkit-glance .eyebrow{margin-bottom:12px}
+.toolkit-glance dl{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 32px}
+.toolkit-glance dd{margin:4px 0 0;max-width:62ch}
+.toolkit-glance-point{border-top:1px solid #acbcb0;padding-top:16px;margin:20px 0 0;font-style:italic;color:var(--ink)}
+.toolkit-callout{border-left:4px solid var(--gold);background:#f1ebdf;padding:22px 26px;margin-block:26px}
+.toolkit-callout p:last-child,.toolkit-panel p:last-child,.toolkit-prompt p:last-child{margin-bottom:0}
+.toolkit-examples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-block:26px;align-items:start}
+.toolkit-example{border:1px solid #acbcb0;background:var(--white);min-width:0;padding:18px;font-size:16px;line-height:1.65}
+.toolkit-example h5{margin:-18px -18px 20px;padding:15px 18px;background:var(--ink);color:var(--white);font:650 14px/1.5 var(--sans);letter-spacing:.04em;overflow-wrap:break-word}
+.toolkit-example h6{font:650 17px/1.4 var(--sans);color:var(--ink);margin:22px 0 10px;overflow-wrap:break-word}
+.toolkit-example h5+h6,.toolkit-panel h6:first-child{margin-top:0}
+.toolkit-example li p{margin-bottom:8px}
+.toolkit-panel{padding:16px;border-left:3px solid var(--teal);background:var(--sage);margin-block:16px}
+.toolkit-panel-dark{background:var(--ink);color:var(--white);border-color:var(--gold-light)}
+.toolkit-panel-dark h6{color:var(--white)}
+.toolkit-panel-gold{background:#f1ebdf;border-color:var(--gold)}
+.toolkit-worksheet{padding:28px;border:1px solid var(--line);background:var(--white);margin-block:16px 36px;min-width:0}
+.toolkit-worksheet>h3{font-size:1.8rem;line-height:1.3}
+.toolkit-worksheet h4{font-family:var(--sans);font-weight:600;font-size:17px;line-height:1.5;margin-bottom:12px}
+.toolkit-worksheet>p,.toolkit-worksheet li{max-width:76ch}
+.toolkit-worksheet-note{font-size:16px;color:var(--muted);margin-bottom:14px}
+.toolkit-fields{display:flex;flex-wrap:wrap;gap:16px 24px;margin-block:22px}
+.toolkit-fields>div{flex:1 1 180px;min-width:0}
+.toolkit-fields dt{font-size:14px;line-height:1.5}
+.toolkit-fields dd{margin:0}
+.toolkit-write-space{height:2.5rem;border-bottom:1px solid #acbcb0;margin-bottom:18px}
+.toolkit-fields .toolkit-write-space{height:1.75rem;margin-bottom:0}
+.toolkit-checklist{padding:8px 0}
+.toolkit-checklist li{margin-block:12px}
+.toolkit-prompt{padding:24px;background:var(--sage);border-left:3px solid var(--teal);margin-block:24px}
+.toolkit-text .capstone-table-wrap{min-width:0}
+.toolkit-response-cell{height:64px}
+.toolkit-document .capstone-end{margin-top:36px}
+@media(max-width:1000px){.toolkit-examples{grid-template-columns:1fr}.toolkit-example{max-width:78ch}.toolkit-example h5{font-size:15px}}
+@media(max-width:720px){.toolkit-key,.toolkit-contents>ul,.toolkit-glance dl{grid-template-columns:1fr}.toolkit-worksheet-index ol{columns:1}.toolkit-contents>ul{gap:12px}.toolkit-glance,.toolkit-callout,.toolkit-worksheet,.toolkit-prompt{padding:20px}.toolkit-worksheet>h3{font-size:1.5rem}.toolkit-fields>div{flex-basis:100%}.toolkit-text .toolkit-back{margin-top:30px}.toolkit-document .capstone-heading h1{font-size:2.15rem}.toolkit-subtitle{font-size:16px}}
+@media print{.toolkit-text .toolkit-back,.toolkit-worksheet-index,.toolkit-contents details{display:none}.toolkit-contents>ul{display:block;columns:2}.toolkit-key,.toolkit-glance dl{display:block}.toolkit-key>div,.toolkit-glance dl>div{margin-bottom:12px}.toolkit-text>.eyebrow{break-after:avoid}.toolkit-text>h2{break-before:auto}.toolkit-worksheet{break-before:page;border:0;padding:0}.toolkit-worksheet h3,.toolkit-example h5,.toolkit-example h6{break-after:avoid}.toolkit-fields{display:block}.toolkit-write-space{height:calc(var(--writing-lines,3)*1.4em)}.toolkit-examples{display:block}.toolkit-example{break-inside:avoid;margin-block:14px}.toolkit-glance,.toolkit-callout,.toolkit-prompt,.toolkit-panel,.toolkit-example h5{background:white;color:#111}.toolkit-panel h6{color:#111}.toolkit-fields dt,.toolkit-key dt,.toolkit-glance dt{color:#111}}
